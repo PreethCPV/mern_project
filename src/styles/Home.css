@@ -1,0 +1,64 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #3f51b5;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar h3 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: #ff4081;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #e91e63;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  margin-top: 80px; /* Adjust margin to account for fixed navbar */
+  width: 100%; /* Ensure content div takes full width */
+  background-color: #f4f4f9; /* Match the body's background color */
+}
+
+.content h1 {
+  color: #3f51b5;
+  margin: 0 0 10px;
+}
+
+.content p {
+  color: #666666;
+  font-size: 18px;
+}
